@@ -11,7 +11,7 @@ export const Footer = () => {
             <li><a href='#contact'>Contact</a></li>
         </ul>
         <p className=' flex justify-center items-center'>Copyright &copy;2025 made by Waldo Lopez </p>
-        <a className=' flex justify-center items-center font-bold' href='https://lordwaldo.github.io/portfolio.html'>Click to see my Portfolio</a>
+        <a className=' flex justify-center items-center font-bold' href='https://lordwaldo.github.io/portfolio.html' target='_blank'>Click to see my Portfolio</a>
     </section>
   )
 }

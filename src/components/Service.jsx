@@ -9,12 +9,12 @@ import Washing from '../assets/washing.jpg'
 export const Service = () => {
   return (
     <section id='service' className=' bg-white h-auto py-10'>
-    <p className=' flex justify-center p-6 font-bold text-[50px]'>Service We Offer</p>
+    <p className=' flex justify-center p-6 font-bold text-[30px] sm:text-[25px] lg:text-[50px]'>Service We Offer</p>
     <div className=' flex justify-center items-center'>
     {/* grid code here */}
-    <div className=' grid grid-cols-3 gap-8 py-4'>
+    <div className=' grid grid-cols-1 lg:grid-cols-3 gap-8 py-4'>
     {/* each card */}
-      <div className=' w-[370px] bg-blue-300 rounded overflow-hidden transition-transform duration-300 hover:-translate-y-[10px] hover:scale-110'>{/* display card */}
+      <div className=' pb-10 w-[370px] bg-blue-300 rounded overflow-hidden transition-transform duration-300 hover:-translate-y-[10px] hover:scale-110'>{/* display card */}
         <img className=' w-[100%] object-cover overflow-hidden' src={Interior} />
         <div className='flex flex-col justify-center items-center py-1 gap-3'>
         <p>Interior painting</p>
@@ -22,7 +22,7 @@ export const Service = () => {
         </div>
       </div>
       {/* each card */}
-      <div className='  w-[370px] bg-blue-300 rounded overflow-hidden transition-transform duration-300 hover:-translate-y-[10px] hover:scale-110'>{/* display card */}
+      <div className=' pb-10 w-[370px] bg-blue-300 rounded overflow-hidden transition-transform duration-300 hover:-translate-y-[10px] hover:scale-110'>{/* display card */}
         <img className=' w-[100%] object-cover overflow-hidden' src={Exterior} />
         <div className='flex flex-col justify-center items-center py-1 gap-3'>
         <p>Exterior Painting</p>
@@ -46,7 +46,7 @@ export const Service = () => {
         </div>
       </div>
       {/* each card */}
-      <div className='  w-[370px] bg-blue-300 rounded overflow-hidden transition-transform duration-300 hover:-translate-y-[10px] hover:scale-110'>{/* display card */}
+      <div className=' pb-10  w-[370px] bg-blue-300 rounded overflow-hidden transition-transform duration-300 hover:-translate-y-[10px] hover:scale-110'>{/* display card */}
         <img className=' w-[100%] object-cover overflow-hidden' src={Staining} />
         <div className='flex flex-col justify-center items-center py-1 gap-3'>
         <p>Staining</p>
@@ -54,7 +54,7 @@ export const Service = () => {
         </div>
       </div>
       {/* each card */}
-      <div className=' w-[370px] bg-blue-300 rounded overflow-hidden transition-transform duration-300 hover:-translate-y-[10px] hover:scale-110'>{/* display card */}
+      <div className=' pb-10 w-[370px] bg-blue-300 rounded overflow-hidden transition-transform duration-300 hover:-translate-y-[10px] hover:scale-110'>{/* display card */}
         <img className='h-61.5 w-[100%] object-cover overflow-hidden' src={Washing} />
         <div className='flex flex-col justify-center items-center py-1 gap-3'>
         <p>Pressure Washing</p>

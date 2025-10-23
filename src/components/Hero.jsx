@@ -12,9 +12,9 @@ export const Hero = () => {
       <Header />
       <motion.div initial={{ opacity:0, scale:0.5}} animate={{opacity:1, scale:1}}
       transition={{duration:0.5}}>
-      <div className=" flex flex-col justify-center items-center h-[700px]">
-        <p className=" text-[40px] font-semibold text-white ">Professional Exterior and Interior House Painter </p>
-        <p className=" text-white p-8 text-[18px]">Call or email for a free estimate to achieve a luminous quality</p>
+      <div className=" flex flex-col justify-center items-center h-[700px] ">
+        <p className=" text-[25px] sm:text-[20px] lg:text-[40px] text-center font-semibold text-white ">Professional Exterior and Interior House Painter </p>
+        <p className=" text-white p-8 text-[18px] text-center">Call or email for a free estimate to achieve a luminous quality</p>
         <button className=" cursor-pointer border-0 bg-blue-300 px-7 py-5 rounded-2xl
          font-semibold text-2xl transition-all hover:bg-blue-400"><a href='#contact'>Get a free Estimate</a></button>
       </div>
