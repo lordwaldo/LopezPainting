@@ -17,7 +17,7 @@ export const Contact = () => {
     </div>
       <ul className=' flex flex-row gap-15 lg:gap-35 lg:text-[40px] pt-4 justify-center items-center'>
         <li className=' flex flex-col justify-center items-center'><FontAwesomeIcon icon="fa-solid fa-phone" />
-        <p className='text-[20px]'>Phone</p><button onClick={()=>window.open('tel:+6789934739')} className='cursor-pointer transition-all hover:bg-blue-400 border-0 bg-blue-300 px-7 py-5 rounded-2xl lg:text-[25px] text-black'>Call Us</button></li>
+        <p className='text-[20px]'>Phone</p><button onClick={()=>window.open('tel:+6786561455')} className='cursor-pointer transition-all hover:bg-blue-400 border-0 bg-blue-300 px-7 py-5 rounded-2xl lg:text-[25px] text-black'>Call Us</button></li>
         <li className=' flex flex-col justify-center items-center'><FontAwesomeIcon icon="fa-solid fa-envelope" />
         <p className='text-[20px]'>Email</p><button onClick={()=>window.open('mailto:waldo20033@gmail.com')} className='cursor-pointer transition-all hover:bg-blue-400 border-0 bg-blue-300 px-7 py-5 rounded-2xl lg:text-[25px] text-black'>Email Us</button></li>
       </ul>
