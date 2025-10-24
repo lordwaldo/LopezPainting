@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <div id='home' className='bg-white shadow-sm'>
       {/* Desktop Navbar */}
-      <div className='flex justify-between items-center px-4 sm:px-8 lg:px-30 py-1.5  mx-auto'>
+      <div className='flex justify-between items-center px-4 sm:px-8 lg:px-30 py-1.5  mx-auto fixed bg-white w-full shadow-2xl'>
         {/* Logo */}
         <img src={Logo} className='h-16 md:h-[75px] w-auto' alt='Painter Logo' />
         
